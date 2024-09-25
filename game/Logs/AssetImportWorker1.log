@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 24473 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Mo3az/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54036
+Successfully changed project path to: C:/Users/Mo3az/My project
+C:/Users/Mo3az/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [920] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 1323310731 [EditorId] 1323310731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M97VGES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [920] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 1323310731 [EditorId] 1323310731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M97VGES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 91.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mo3az/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) 530 (ID=0x6900)
+    Vendor:   ATI
+    VRAM:     4086 MB
+    Driver:   27.20.20913.2000
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024394 seconds.
+- Loaded All Assemblies, in  2.073 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.494 seconds
+Domain Reload Profiling: 3567ms
+	BeginReloadAssembly (700ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (199ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (276ms)
+	LoadAllAssembliesAndSetupDomain (832ms)
+		LoadAssemblies (700ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (821ms)
+			TypeCache.Refresh (815ms)
+				TypeCache.ScanAssembly (748ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (852ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.090 seconds
+Refreshing native plugins compatible for Editor in 54.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.320 seconds
+Domain Reload Profiling: 8402ms
+	BeginReloadAssembly (833ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (188ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (2807ms)
+		LoadAssemblies (1929ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1410ms)
+			TypeCache.Refresh (1141ms)
+				TypeCache.ScanAssembly (1011ms)
+			ScanForSourceGeneratedMonoScriptInfo (224ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (4321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (379ms)
+			ProcessInitializeOnLoadAttributes (2018ms)
+			ProcessInitializeOnLoadMethodAttributes (900ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 45.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4246 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (73.5 KB). Loaded Objects now: 4682.
+Memory consumption went from 148.6 MB to 148.5 MB.
+Total: 35.586800 ms (FindLiveObjects: 0.754500 ms CreateObjectMapping: 0.947300 ms MarkObjects: 33.454300 ms  DeleteObjects: 0.427400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Light.cs: b67e689e839889096eb20a18f31c2c99 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Move.cs: d6379711722d90072060b333fc0a5937 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 411444.191445 seconds.
+  path: Assets/Trash Pack Low Poly/Cereal_2.prefab
+  artifactKey: Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Cereal_2.prefab using Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ad307e847f03444d8a61db48084d4b') in 1.258842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Palette.mat
+  artifactKey: Guid(0b1f68a0522d9b146b9c6b22451df18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Palette.mat using Guid(0b1f68a0522d9b146b9c6b22451df18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe09082ce31531f87d347a07cb75bf38') in 0.161014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/BottleOfBeer.mat
+  artifactKey: Guid(9b40f60f14d2f0345b7bbcb3f0b5aacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/BottleOfBeer.mat using Guid(9b40f60f14d2f0345b7bbcb3f0b5aacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc546fe9b70842939982c8f7ee8c9a1c') in 0.044268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottles.png
+  artifactKey: Guid(4f72ec5698630e5479598848eccea983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottles.png using Guid(4f72ec5698630e5479598848eccea983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34d652a4ca9cb32b58aef67379c2d3') in 0.063186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Trash Pack Low Poly/Bottle4.FBX
+  artifactKey: Guid(c508bee724909024ebabc106ffc525ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Bottle4.FBX using Guid(c508bee724909024ebabc106ffc525ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f29ead110969276053fdfc5910073') in 0.674027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottle3_2.mat
+  artifactKey: Guid(80c0ca3abd0777247859598bd20b2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottle3_2.mat using Guid(80c0ca3abd0777247859598bd20b2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593e6f08a71ea160d1a3e2852fc11dcb') in 0.046242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Trash Pack Low Poly/Battery1.FBX
+  artifactKey: Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Battery1.FBX using Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8fc40a5ecbdb62e0af88a2b67b5e78') in 0.083743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan2.FBX
+  artifactKey: Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan2.FBX using Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419af1cd69a3997b4a451adc2900a75b') in 0.694776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottles3_2.png
+  artifactKey: Guid(7c7c5fadf02356b41b7efb551036a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottles3_2.png using Guid(7c7c5fadf02356b41b7efb551036a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b0a53d31154163459efef8cb994e9a') in 0.055419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Desk.mat
+  artifactKey: Guid(c7e879ced2bbbb04f9f1599bb4a777cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Desk.mat using Guid(c7e879ced2bbbb04f9f1599bb4a777cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984051156f21745d858d4cf707792260') in 0.054858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Brick2.mat
+  artifactKey: Guid(e119bdd39d2c85c4a9a953eb2b858319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Brick2.mat using Guid(e119bdd39d2c85c4a9a953eb2b858319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0b26a48451d76123e0e37a4d061ec9') in 0.055049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Trash Pack Low Poly/PlasticCoup.FBX
+  artifactKey: Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/PlasticCoup.FBX using Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7cb77c8e51551a40dfb984dbb13310') in 0.070950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001458 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottles2.mat
+  artifactKey: Guid(e0c380bc9a8f55f4b918d704201113e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottles2.mat using Guid(e0c380bc9a8f55f4b918d704201113e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedfb184506a6f70c53aa3dcb7b3df73') in 0.044802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottles3.mat
+  artifactKey: Guid(da3a4d7fe9ec44441ae06aa548aee33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottles3.mat using Guid(da3a4d7fe9ec44441ae06aa548aee33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab798503dd70fe81655b4931fa22076') in 0.055784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/No Name.mat
+  artifactKey: Guid(662696b4206d7d441bb6612dc6a3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/No Name.mat using Guid(662696b4206d7d441bb6612dc6a3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a580f26c0dd3e92b6ed20699ba82c1') in 0.044721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteBottles4.mat
+  artifactKey: Guid(b6ffc7886e981714eafede5b30f9f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteBottles4.mat using Guid(b6ffc7886e981714eafede5b30f9f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb02f9dddbb2b0417b3a7a1c98925c') in 0.046175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Cereal_2.mat
+  artifactKey: Guid(120609a11bd118e4dbeda4e9871cebfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Cereal_2.mat using Guid(120609a11bd118e4dbeda4e9871cebfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7285d0d813f46fd89844921551458b') in 0.053170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan4.FBX
+  artifactKey: Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan4.FBX using Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5edd7958949f66709f9f7a89c399f0e') in 0.158299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.005794 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Cereal_2.png
+  artifactKey: Guid(9659e3105f0d6c746a74ea15ce89ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Cereal_2.png using Guid(9659e3105f0d6c746a74ea15ce89ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377260603b963ea7ff1ad166733c22b3') in 0.084836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006227 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan3.FBX
+  artifactKey: Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan3.FBX using Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73daf2d5242ceaff83a064359d4002c6') in 0.392542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 1.599858 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteTrashcan3.mat
+  artifactKey: Guid(43af837bacaf85945926c78c6026c7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteTrashcan3.mat using Guid(43af837bacaf85945926c78c6026c7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d239098e21e4e0df44e329673863a2') in 0.054638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/ToiletPaper.mat
+  artifactKey: Guid(03e0169950cddae44ba0eb40b4af13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/ToiletPaper.mat using Guid(03e0169950cddae44ba0eb40b4af13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa387c600b3818d02e2d78cce2dc990') in 0.050143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/PaletteTrashcan3.png
+  artifactKey: Guid(70657ef9601651a41b534eabaf95f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/PaletteTrashcan3.png using Guid(70657ef9601651a41b534eabaf95f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de6230c6facb599bf2487b9ab8e2f60') in 0.052758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/ToiletPaper.png
+  artifactKey: Guid(96f78a2eda80d7a4bb288acb6f48d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/ToiletPaper.png using Guid(96f78a2eda80d7a4bb288acb6f48d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222210547c88cd9dda1f1ce0455fb188') in 0.053667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.141498 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Trashcan2.png
+  artifactKey: Guid(29ba99bc93afcd94c9defae05a46fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Trashcan2.png using Guid(29ba99bc93afcd94c9defae05a46fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9ebbf009a7585d6c203b040a32b000') in 0.050720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.416167 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Materials/Trashcan2.mat
+  artifactKey: Guid(a071159d42fe5df478a900099c43071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Materials/Trashcan2.mat using Guid(a071159d42fe5df478a900099c43071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ca0e118f5f0fc37ef3ceb8236037ae') in 0.050412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
